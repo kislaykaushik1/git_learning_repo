@@ -27,11 +27,10 @@ Complex operator+(int x, Complex c2)
 }
 int main()
 {
- Complex c2(7,8), sum;
- sum = 5+c2;
-
- operator +(5, c2);
- c2.display();
+ Complex c1(7,8), sum;
+ sum = 5+c1;
+ operator +(5, c1);
+ c1.display();
  sum.display();
  return 0;
 }
