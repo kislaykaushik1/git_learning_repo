@@ -18,11 +18,11 @@ void display()
  cout<<real<<"+"<<img<<"i"<<"\n";
  }
 };
-Complex operator+(int x, Complex c2)
+Complex operator+(int x, Complex c1)
 {
  Complex c;
- c.real=x +c2.real;
- c.img=x + c2.img;
+ c.real=x +c1.real;
+ c.img=x + c1.img;
  return c;
 }
 int main()
